@@ -3,7 +3,7 @@
   "name": "Reforge Companion App",
   "icons": [
     {
-      "src": "favicon.png",
+      "src": "./images/favicon.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     }
@@ -15,12 +15,12 @@
   "background_color": "#ffffff",
   "icons": [
   {
-    "src": "./src/images/reforge_companion_logo_.png",
+    "src": "./images/reforge_companion_logo_192.png",
     "type": "image/png",
     "sizes": "192x192"
   },
   {
-    "src": "./src/images/reforge_companion_logo_512.png",
+    "src": "./images/reforge_companion_logo_512.png",
     "type": "image/png",
     "sizes": "512x512"
   }
