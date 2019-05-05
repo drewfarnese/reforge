@@ -5,10 +5,14 @@
   "private": false,
   "dependencies": {
     "mdi-react": "^2.0.46-hotfix.0",
-    "react": "^16.1.1",
     "react-dom": "^16.1.1",
+    "mdi-react": "^2.1.19",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-native": "^0.59.6",
     "react-native-responsive-screen": "^1.2.2",
-    "react-scripts": "1.0.17"
+    "react-scripts": "^3.0.0",
+    "typescript": "^3.4.5"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -19,6 +23,18 @@
     "deploy": "gh-pages -d build"
   },
   "devDependencies": {
-    "gh-pages": "^1.0.0"
+    "gh-pages": "^1.2.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
