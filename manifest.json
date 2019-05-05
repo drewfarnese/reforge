@@ -3,27 +3,26 @@
   "name": "Reforge Companion App",
   "icons": [
     {
-      "src": "./images/favicon.png",
+      "src": "./favicon.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     }
   ],
   "start_url": "./index.html",
-  "display": "fullscreen",
+  "display": "standalone",
   "orientation": "portrait",
-  "theme_color": "#000",
-  "background_color": "#ffffff",
+  "theme_color": "#c14343",
+  "background_color": "#c14343",
   "icons": [
-  {
-    "src": "./images/reforge_companion_logo_192.png",
-    "type": "image/png",
-    "sizes": "192x192"
-  },
-  {
-    "src": "./images/reforge_companion_logo_512.png",
-    "type": "image/png",
-    "sizes": "512x512"
-  }
-]
-
+        {
+            "src": "./images/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "./images/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
 }
