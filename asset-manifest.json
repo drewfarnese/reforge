@@ -1,13 +1,18 @@
 {
-  "main.css": "static/css/main.68596bf0.css",
-  "main.css.map": "static/css/main.68596bf0.css.map",
-  "main.js": "static/js/main.cc527caa.js",
-  "main.js.map": "static/js/main.cc527caa.js.map",
-  "static\\media\\BRLNSDB.woff": "static/media/BRLNSDB.f8fbeb74.woff",
-  "static\\media\\d10.svg": "static/media/d10.95195065.svg",
-  "static\\media\\d12.svg": "static/media/d12.43fc1003.svg",
-  "static\\media\\d4.svg": "static/media/d4.1119c6ab.svg",
-  "static\\media\\d6.svg": "static/media/d6.27366c8f.svg",
-  "static\\media\\d8.svg": "static/media/d8.e0b08c2a.svg",
-  "static\\media\\reforge_logo_v3.png": "static/media/reforge_logo_v3.9a618feb.png"
+  "files": {
+    "main.css": "/reforge/static/css/main.c1bb5c69.chunk.css",
+    "main.js": "/reforge/static/js/main.8ab2f91c.chunk.js",
+    "main.js.map": "/reforge/static/js/main.8ab2f91c.chunk.js.map",
+    "runtime~main.js": "/reforge/static/js/runtime~main.ead08fdc.js",
+    "runtime~main.js.map": "/reforge/static/js/runtime~main.ead08fdc.js.map",
+    "static/js/2.373ccd69.chunk.js": "/reforge/static/js/2.373ccd69.chunk.js",
+    "static/js/2.373ccd69.chunk.js.map": "/reforge/static/js/2.373ccd69.chunk.js.map",
+    "index.html": "/reforge/index.html",
+    "precache-manifest.486dcbfdec6d160749fc807e24999e28.js": "/reforge/precache-manifest.486dcbfdec6d160749fc807e24999e28.js",
+    "service-worker.js": "/reforge/service-worker.js",
+    "static/css/main.c1bb5c69.chunk.css.map": "/reforge/static/css/main.c1bb5c69.chunk.css.map",
+    "static/media/App.css": "/reforge/static/media/BRLNSDB.f8fbeb74.woff",
+    "static/media/Die.css": "/reforge/static/media/d8.e0b08c2a.svg",
+    "static/media/reforge_logo_v3.png": "/reforge/static/media/reforge_logo_v3.9a618feb.png"
+  }
 }
