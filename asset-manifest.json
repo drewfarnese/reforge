@@ -1,12 +1,13 @@
 {
-  "main.css": "static/css/main.924b474d.css",
-  "main.css.map": "static/css/main.924b474d.css.map",
-  "main.js": "static/js/main.1a64d93e.js",
-  "main.js.map": "static/js/main.1a64d93e.js.map",
+  "main.css": "static/css/main.0107bd41.css",
+  "main.css.map": "static/css/main.0107bd41.css.map",
+  "main.js": "static/js/main.cc527caa.js",
+  "main.js.map": "static/js/main.cc527caa.js.map",
   "static\\media\\BRLNSDB.woff": "static/media/BRLNSDB.f8fbeb74.woff",
   "static\\media\\d10.svg": "static/media/d10.95195065.svg",
   "static\\media\\d12.svg": "static/media/d12.43fc1003.svg",
   "static\\media\\d4.svg": "static/media/d4.1119c6ab.svg",
   "static\\media\\d6.svg": "static/media/d6.27366c8f.svg",
-  "static\\media\\d8.svg": "static/media/d8.e0b08c2a.svg"
+  "static\\media\\d8.svg": "static/media/d8.e0b08c2a.svg",
+  "static\\media\\reforge_logo_v3.png": "static/media/reforge_logo_v3.9a618feb.png"
 }
