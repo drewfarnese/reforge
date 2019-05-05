@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3766efe872b8851f4b6b6fd3548a27c2",
+    "revision": "c154cc037d89e0ad6d09d4f3c4af4528",
     "url": "/reforge/index.html"
   },
   {
