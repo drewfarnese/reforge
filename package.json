@@ -4,8 +4,6 @@
   "version": "0.1.0",
   "private": false,
   "dependencies": {
-    "mdi-react": "^2.0.46-hotfix.0",
-    "react-dom": "^16.1.1",
     "mdi-react": "^2.1.19",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
