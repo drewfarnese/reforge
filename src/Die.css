@@ -1,0 +1,50 @@
+die {
+text-align: center;
+}
+
+.die-container {
+    position: relative;
+    perspective: 1000px;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    cursor: pointer;
+}
+
+/*
+    Common Die Style
+*/
+#die {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    color: #FFFFFF;
+}
+
+/*
+    Die Styles
+*/
+
+.d4 {
+    background-image: url(./images/d4.svg);
+}
+
+.d6 {
+    background-image: url(./images/d6.svg);
+}
+
+.d8 {
+    background-image: url(./images/d8.svg);
+}
+
+.d10 {
+    background-image: url(./images/d10.svg);
+}
+
+.d12 {
+    background-image: url(./images/d12.svg);
+}
+
+
+
