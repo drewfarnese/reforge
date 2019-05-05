@@ -1,11 +1,6 @@
-# React-Dice-Roller
+# Reforge Companion App
 
-A simple dice rolling app built with React.
-
-Dice and animations were created with pure CSS.
-
-### Try it
-[tryton-vanmeer.github.io/React-Dice-Roller/](https://tryton-vanmeer.github.io/React-Dice-Roller/)
+Companion app to be used with Reforge.
 
 ### Install
 `npm install`
