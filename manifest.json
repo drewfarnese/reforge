@@ -10,7 +10,20 @@
   ],
   "start_url": "./index.html",
   "display": "fullscreen",
-"orientation": "portrait",
+  "orientation": "portrait",
   "theme_color": "#000",
-  "background_color": "#ffffff"
+  "background_color": "#ffffff",
+  "icons": [
+  {
+    "src": "./src/images/reforge_companion_logo_.png",
+    "type": "image/png",
+    "sizes": "192x192"
+  },
+  {
+    "src": "./src/images/reforge_companion_logo_512.png",
+    "type": "image/png",
+    "sizes": "512x512"
+  }
+]
+
 }
