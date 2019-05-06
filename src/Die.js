@@ -1,10 +1,7 @@
 import React from 'react';
 import './Die.css'
 
-
-
 const Dice = [4, 6, 8, 10, 12];
-
 
 class Die extends React.Component {
     constructor(props) {
@@ -67,11 +64,13 @@ class Die extends React.Component {
         return (
             <die>
             <div className='die-container'  onClick={ this.handleClick }>
-                <div id="die" className={'d' + Dice[this.state.count]}>
+                <div id='die' className={'d' + Dice[this.state.count]}>
                 </div>
             </div>
-            <button id='deforge' onClick={this.decrement}>DEFORGE</button>
-            <button onClick={this.increment}>REFORGE</button>         
+            <forge>
+            <div id='deforge' onClick={this.decrement}></div>
+            <div id='reforge' onClick={this.increment}></div>
+            </forge>         
             <p>{this.state.roll}</p>
             <p>{this.state.status}</p>
             </die>

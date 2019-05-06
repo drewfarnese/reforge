@@ -1,5 +1,5 @@
 die {
-text-align: center;
+    text-align: center;
 }
 
 .die-container {
@@ -20,18 +20,29 @@ text-align: center;
     height: 100%;
     margin: auto;
     color: #FFFFFF;
+    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX= 0, OffY=5,Color='#444')";
+    filter: url(#drop-shadow);
+    -webkit-filter: drop-shadow(0px 5px 3px rgba(0,0,0,0.5));
+    filter: drop-shadow(0px 5px 3px rgba(0,0,0,0.5));
 }
 
+#die:active {
+
+}
 /*
     Die Styles
 */
 
 .d4 {
     background-image: url(./images/d4.svg);
+    -webkit-svg-shadow: 4px -5px 0px darken($midnight, 10);
+
 }
 
 .d6 {
     background-image: url(./images/d6.svg);
+    -webkit-svg-shadow: 0 0 7px #53BE12;
+
 }
 
 .d8 {
@@ -47,4 +58,63 @@ text-align: center;
 }
 
 
+forge {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin: 30px auto;
+}
+
+#deforge{
+    margin: auto 30px;
+    width: 100px;
+    height: 100px;
+    border-radius:10px;
+    background-color: #c14343;
+    border: 1.5px solid #333;
+    background-image: url(./images/deforge.svg);
+    cursor: pointer;
+   -webkit-box-shadow: inset 0px 0px 17px -2px rgba(0,0,0,0.4);
+    -moz-box-shadow: inset 0px 0px 17px -2px rgba(0,0,0,0.4);
+    box-shadow: inset 0px 0px 17px -2px rgba(0,0,0,0.4);
+    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX= 0, OffY=5,Color='#444')";
+    filter: url(#drop-shadow);
+    -webkit-filter: drop-shadow(0px 5px 3px rgba(0,0,0,0.3));
+    filter: drop-shadow(0px 5px 3px rgba(0,0,0,0.3));
+
+}
+
+#reforge {
+    margin: auto 30px;
+    width: 100px;
+    height: 100px;
+    border-radius:10px;
+    background-color: #c14343;
+    border: 1.5px solid #333;
+    background-image: url(./images/reforge.svg);
+    cursor: pointer;
+    -webkit-box-shadow: inset 0px 0px 17px -2px rgba(0,0,0,0.4);
+    -moz-box-shadow: inset 0px 0px 17px -2px rgba(0,0,0,0.4);
+    box-shadow: inset 0px 0px 17px -2px rgba(0,0,0,0.4);
+    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX= 0, OffY=5,Color='#444')";
+    filter: url(#drop-shadow);
+    -webkit-filter: drop-shadow(0px 5px 3px rgba(0,0,0,0.3));
+    filter: drop-shadow(0px 5px 3px rgba(0,0,0,0.3));
+}
+
+#reforge:active {
+    background-color:#a93a3a;
+    -webkit-box-shadow: inset 0px 0px 17px 2px rgba(0,0,0,0.5);
+-moz-box-shadow: inset 0px 0px 17px 2px rgba(0,0,0,0.5);
+box-shadow: inset 0px 0px 17px 2px rgba(0,0,0,0.5);
+}
+
+#deforge:active {
+    background-color: #a93a3a;
+    -webkit-box-shadow: inset 0px 0px 17px 2px rgba(0,0,0,0.5);
+-moz-box-shadow: inset 0px 0px 17px 2px rgba(0,0,0,0.5);
+box-shadow: inset 0px 0px 17px 2px rgba(0,0,0,0.5);
+
+}
 

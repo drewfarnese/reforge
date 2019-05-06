@@ -6,7 +6,7 @@ class Navbar extends React.Component {
     render() {
         return (
             <nav>
-                <img src={logo} alt={"logo"}/>
+                <img src={logo} alt={""}/>
             </nav>
         );
     }

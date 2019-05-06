@@ -46,6 +46,4 @@ class HealthBar extends React.Component {
     }
 }
 
-
-
 export default HealthBar;
