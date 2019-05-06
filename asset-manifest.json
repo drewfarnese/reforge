@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/reforge/static/css/main.3e7fb7e0.chunk.css",
+    "main.css": "/reforge/static/css/main.8cb4b590.chunk.css",
     "main.js": "/reforge/static/js/main.4a7f1a30.chunk.js",
     "main.js.map": "/reforge/static/js/main.4a7f1a30.chunk.js.map",
     "runtime~main.js": "/reforge/static/js/runtime~main.ead08fdc.js",
@@ -8,9 +8,9 @@
     "static/js/2.373ccd69.chunk.js": "/reforge/static/js/2.373ccd69.chunk.js",
     "static/js/2.373ccd69.chunk.js.map": "/reforge/static/js/2.373ccd69.chunk.js.map",
     "index.html": "/reforge/index.html",
-    "precache-manifest.5fa37c5a35ac159c73267e5be398fbca.js": "/reforge/precache-manifest.5fa37c5a35ac159c73267e5be398fbca.js",
+    "precache-manifest.02c70baacd5d5617cc37246251913232.js": "/reforge/precache-manifest.02c70baacd5d5617cc37246251913232.js",
     "service-worker.js": "/reforge/service-worker.js",
-    "static/css/main.3e7fb7e0.chunk.css.map": "/reforge/static/css/main.3e7fb7e0.chunk.css.map",
+    "static/css/main.8cb4b590.chunk.css.map": "/reforge/static/css/main.8cb4b590.chunk.css.map",
     "static/media/App.css": "/reforge/static/media/BRLNSDB.f8fbeb74.woff",
     "static/media/index.css": "/reforge/static/media/bedge-grunge.9aecd722.png",
     "static/media/Navbar.css": "/reforge/static/media/black-orchid.5585543c.png",
