@@ -1,7 +1,16 @@
 html, body {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Berlin Sans FB Demi Bold';
+    text-shadow:0px .5px .5px #000;
     background-image: url('./images/bedge-grunge.png');
     background-color: #3b3a3a;
+    -webkit-tap-highlight-color:transparent;
+}
+
+@font-face {
+font-family: 'Berlin Sans FB Demi Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Berlin Sans FB Demi Bold'), url('./fonts/BRLNSDB.woff') format('woff');
 }

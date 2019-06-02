@@ -1,5 +1,6 @@
-import React from 'react';
+import React from 'react'
 import './Die.css'
+import './Assets.css'
 
 const Dice = [4, 6, 8, 10, 12];
 
@@ -8,8 +9,7 @@ class Die extends React.Component {
         super(props);
   this.state = {
             count: 0,
-            roll: null,
-            status: null
+            roll: 0,
         }
         this.handleClick = this.handleClick.bind(this);
         this.roll = this.roll.bind(this);
@@ -22,6 +22,7 @@ class Die extends React.Component {
     increment(e) {
         if (this.state.count >= 0  && this.state.count < 4) {
         this.setState({ count: this.state.count + 1 });
+        this.setState({roll: 0})
         }
         else {
         }
@@ -30,6 +31,7 @@ class Die extends React.Component {
     decrement(e) {
         if (this.state.count > 0  && this.state.count < 5) {
         this.setState({ count: this.state.count - 1 });
+        this.setState({roll: 0})
         }
         else {
         }
@@ -46,33 +48,23 @@ class Die extends React.Component {
 
     handleClick(e) {
         var die = document.getElementById("die");
-        die.classList.add("rolling");
         this.roll();
-        this.setState({status: "ROLLING"});
-    
-        setTimeout(function () {
-            die.classList.remove("rolling"); 
-        }, 750);
-
-        setTimeout(function () {
-            this.setState({ status: null});
-        }.bind(this), 750);
     }
 
     render() {
 
         return (
-            <die>
+            <die className='noselect'>
+            <p id='level'>LEVEL {'D' + Dice[this.state.count]}</p>
             <div className='die-container'  onClick={ this.handleClick }>
-                <div id='die' className={'d' + Dice[this.state.count]}>
-                </div>
+            <div id='die' className={'d' + Dice[this.state.count] + '_' + this.state.roll}>
+            </div>
             </div>
             <forge>
-            <div id='deforge' onClick={this.decrement}></div>
-            <div id='reforge' onClick={this.increment}></div>
-            </forge>         
-            <p>{this.state.roll}</p>
-            <p>{this.state.status}</p>
+            <div id='deforge' className='button' onClick={this.decrement}></div>
+            <div id='roll' className='button' onClick={this.handleClick}>ROLL</div>
+            <div id='reforge' className='button' onClick={this.increment}></div>
+            </forge>
             </die>
         );
     }

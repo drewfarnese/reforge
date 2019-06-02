@@ -1,0 +1,56 @@
+/*
+    Die Styles
+*/
+.d4_0 { background-image: url(./images/dice/0d4.svg);}
+.d4_1 { background-image: url(./images/dice/1d4.svg);}
+.d4_2 { background-image: url(./images/dice/2d4.svg);}
+.d4_3 { background-image: url(./images/dice/3d4.svg);}
+.d4_4 { background-image: url(./images/dice/4d4.svg);}
+
+
+.d6_0 { background-image: url(./images/dice/0d6.svg); }
+.d6_1 { background-image: url(./images/dice/1d6.svg); }
+.d6_2 { background-image: url(./images/dice/2d6.svg); }
+.d6_3 { background-image: url(./images/dice/3d6.svg); }
+.d6_4 { background-image: url(./images/dice/4d6.svg); }
+.d6_5 { background-image: url(./images/dice/5d6.svg); }
+.d6_6 { background-image: url(./images/dice/6d6.svg); }
+
+
+
+.d8_0 { background-image: url(./images/dice/0d8.svg); }
+.d8_1 { background-image: url(./images/dice/1d8.svg); }
+.d8_2 { background-image: url(./images/dice/2d8.svg); }
+.d8_3 { background-image: url(./images/dice/3d8.svg); }
+.d8_4 { background-image: url(./images/dice/4d8.svg); }
+.d8_5 { background-image: url(./images/dice/5d8.svg); }
+.d8_6 { background-image: url(./images/dice/6d8.svg); }
+.d8_7 { background-image: url(./images/dice/7d8.svg); }
+.d8_8 { background-image: url(./images/dice/8d8.svg); }
+
+.d10_0 { background-image: url(./images/dice/0d10.svg); }
+.d10_1 { background-image: url(./images/dice/1d10.svg); }
+.d10_2 { background-image: url(./images/dice/2d10.svg); }
+.d10_3 { background-image: url(./images/dice/3d10.svg); }
+.d10_4 { background-image: url(./images/dice/4d10.svg); }
+.d10_5 { background-image: url(./images/dice/5d10.svg); }
+.d10_6 { background-image: url(./images/dice/6d10.svg); }
+.d10_7 { background-image: url(./images/dice/7d10.svg); }
+.d10_8 { background-image: url(./images/dice/8d10.svg); }
+.d10_9 { background-image: url(./images/dice/9d10.svg); }
+.d10_10 { background-image: url(./images/dice/10d10.svg); }
+
+
+.d12_0 { background-image: url(./images/dice/0d12.svg); }
+.d12_1 { background-image: url(./images/dice/1d12.svg); }
+.d12_2 { background-image: url(./images/dice/2d12.svg); }
+.d12_3 { background-image: url(./images/dice/3d12.svg); }
+.d12_4 { background-image: url(./images/dice/4d12.svg); }
+.d12_5 { background-image: url(./images/dice/5d12.svg); }
+.d12_6 { background-image: url(./images/dice/6d12.svg); }
+.d12_7 { background-image: url(./images/dice/7d12.svg); }
+.d12_8 { background-image: url(./images/dice/8d12.svg); }
+.d12_9 { background-image: url(./images/dice/9d12.svg); }
+.d12_10 { background-image: url(./images/dice/10d12.svg); }
+.d12_11 { background-image: url(./images/dice/11d12.svg); }
+.d12_12 { background-image: url(./images/dice/12d12.svg); }

@@ -6,12 +6,14 @@
   "dependencies": {
     "braces": "^3.0.2",
     "core-js": "^3.0.1",
+    "firebase-tools": "^6.10.0",
     "mdi-react": "^2.1.19",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-native": "^0.59.6",
     "react-native-responsive-screen": "^1.2.2",
     "react-scripts": "^3.0.0",
+    "reicons": "^0.4.7",
     "typescript": "^3.4.5"
   },
   "scripts": {
@@ -20,10 +22,13 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "svgr": "svgr -d src/images/dice assets/"
   },
   "devDependencies": {
-    "gh-pages": "^1.2.0"
+    "@svgr/cli": "^4.3.0",
+    "gh-pages": "^1.2.0",
+    "svg-sprite-loader": "^4.1.6"
   },
   "browserslist": {
     "production": [
@@ -39,6 +44,5 @@
     "files": [
       "./public/images/"
     ]
-
   }
 }

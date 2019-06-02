@@ -34,7 +34,7 @@ class HealthBar extends React.Component {
     render() {
 
         return (
-        	<health>
+        	<health className='noselect'>
         	<p id='hp'>HIT POINTS</p>
             <div className='health-bar'>
             <div className='filler' style={{ 'width': Lives[this.state.count] + '%' }}>{this.state.count}</div>

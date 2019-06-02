@@ -3,8 +3,6 @@ die {
 }
 
 .die-container {
-    position: relative;
-    perspective: 1000px;
     width: 225px;
     height: 225px;
     margin: auto;
@@ -15,102 +13,57 @@ die {
     Common Die Style
 */
 #die {
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 100%;
-    margin: auto;
-    color: #FFFFFF;
-    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX= 0, OffY=5,Color='#444')";
+    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX= 0, OffY=5, Color='#444')";
     filter: url(#drop-shadow);
-    -webkit-filter: drop-shadow(0px 5px 3px rgba(0,0,0,0.5));
-    filter: drop-shadow(0px 5px 3px rgba(0,0,0,0.5));
+    -webkit-filter: drop-shadow(0px 5px 3px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(0px 5px 3px rgba(0, 0, 0, 0.5)); 
 }
+
 
 #die:active {
-
 }
-/*
-    Die Styles
-*/
-
-.d4 {
-    background-image: url(./images/d4.svg);
-}
-
-.d6 {
-    background-image: url(./images/d6.svg);
-}
-
-.d8 {
-    background-image: url(./images/d8.svg);
-}
-
-.d10 {
-    background-image: url(./images/d10.svg);
-}
-
-.d12 {
-    background-image: url(./images/d12.svg);
-}
-
 
 forge {
     display: flex;
     flex-direction: row;
     justify-content: center;
     text-align: center;
+    align-items: center;
     margin: 30px auto;
 }
 
-#deforge{
-    margin: auto 30px;
-    width: 100px;
-    height: 100px;
-    border-radius:10px;
-    background-color: #c14343;
-    border: 1.5px solid #333;
+#deforge {
     background-image: url(./images/deforge.svg);
-    cursor: pointer;
-   -webkit-box-shadow: inset 0px 0px 17px -2px rgba(0,0,0,0.4);
-    -moz-box-shadow: inset 0px 0px 17px -2px rgba(0,0,0,0.4);
-    box-shadow: inset 0px 0px 17px -2px rgba(0,0,0,0.4);
-    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX= 0, OffY=5,Color='#444')";
-    filter: url(#drop-shadow);
-    -webkit-filter: drop-shadow(0px 5px 3px rgba(0,0,0,0.3));
-    filter: drop-shadow(0px 5px 3px rgba(0,0,0,0.3));
-
 }
+
 
 #reforge {
-    margin: auto 30px;
-    width: 100px;
-    height: 100px;
-    border-radius:10px;
-    background-color: #c14343;
-    border: 1.5px solid #333;
     background-image: url(./images/reforge.svg);
-    cursor: pointer;
-    -webkit-box-shadow: inset 0px 0px 17px -2px rgba(0,0,0,0.4);
-    -moz-box-shadow: inset 0px 0px 17px -2px rgba(0,0,0,0.4);
-    box-shadow: inset 0px 0px 17px -2px rgba(0,0,0,0.4);
-    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX= 0, OffY=5,Color='#444')";
-    filter: url(#drop-shadow);
-    -webkit-filter: drop-shadow(0px 5px 3px rgba(0,0,0,0.3));
-    filter: drop-shadow(0px 5px 3px rgba(0,0,0,0.3));
 }
 
-#reforge:active {
-    background-color:#a93a3a;
-    -webkit-box-shadow: inset 0px 0px 17px 2px rgba(0,0,0,0.5);
--moz-box-shadow: inset 0px 0px 17px 2px rgba(0,0,0,0.5);
-box-shadow: inset 0px 0px 17px 2px rgba(0,0,0,0.5);
+#roll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
 }
 
-#deforge:active {
-    background-color: #a93a3a;
-    -webkit-box-shadow: inset 0px 0px 17px 2px rgba(0,0,0,0.5);
--moz-box-shadow: inset 0px 0px 17px 2px rgba(0,0,0,0.5);
-box-shadow: inset 0px 0px 17px 2px rgba(0,0,0,0.5);
+score {
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+    line-height: normal;
+    height: auto;
+    color: #c14343;
+    font-size: 4rem;
 
 }
-
+.icon {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+}
