@@ -1,0 +1,17 @@
+/** `Icon.component.js` **/
+const iconSVGData = require('../images/dice/index.js');
+ 
+const Icon = (props) => (
+    <svg
+        className={ props.className }
+        viewBox="0 0 72 72"
+        width={ props.width }
+        height={ props.height }
+    >
+        { props.title && <title id="title">{ props.title }</title> }
+        <g dangerouslySetInnerHTML={ { __html: iconSVGData[props.name] } } /> // This is the important bit
+ 
+     
+);
+
+export default Icon;
