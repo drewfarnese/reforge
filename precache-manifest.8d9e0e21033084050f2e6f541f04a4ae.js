@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "73a28616b58538658a1b422386db7a1b",
+    "revision": "ac8155409ff9f7cda602ff3e6f058d98",
     "url": "/reforge/index.html"
   },
   {
-    "revision": "a95a240e28c1e6b12501",
-    "url": "/reforge/static/css/main.950ef33b.chunk.css"
+    "revision": "1b0220186e639ebe340c",
+    "url": "/reforge/static/css/main.e46d4085.chunk.css"
   },
   {
     "revision": "e1df9e5dd97f9dc5b41a",
     "url": "/reforge/static/js/2.373ccd69.chunk.js"
   },
   {
-    "revision": "a95a240e28c1e6b12501",
-    "url": "/reforge/static/js/main.7fd61faa.chunk.js"
+    "revision": "1b0220186e639ebe340c",
+    "url": "/reforge/static/js/main.e2399fd2.chunk.js"
   },
   {
     "revision": "2908a1fd987c9692f380",
@@ -212,12 +212,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/reforge/static/media/black-orchid.5585543c.png"
   },
   {
-    "revision": "8880dfa1adebd15a5198337ea0ad3765",
-    "url": "/reforge/static/media/deforge.8880dfa1.svg"
+    "revision": "711467461aa218c3703216d9a389ee84",
+    "url": "/reforge/static/media/deforge.71146746.svg"
   },
   {
-    "revision": "7476687cdf2b74b714a086fcedc09fbd",
-    "url": "/reforge/static/media/reforge.7476687c.svg"
+    "revision": "78abfc830ea59b250ba759d0f5bef78a",
+    "url": "/reforge/static/media/reforge.78abfc83.svg"
   },
   {
     "revision": "9a618feb4295ff4e04889ed9f937f29f",
