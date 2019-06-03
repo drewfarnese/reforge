@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/reforge/static/css/main.e7de6601.chunk.css",
+    "main.css": "/reforge/static/css/main.950ef33b.chunk.css",
     "main.js": "/reforge/static/js/main.7fd61faa.chunk.js",
     "main.js.map": "/reforge/static/js/main.7fd61faa.chunk.js.map",
     "runtime~main.js": "/reforge/static/js/runtime~main.ead08fdc.js",
@@ -8,9 +8,9 @@
     "static/js/2.373ccd69.chunk.js": "/reforge/static/js/2.373ccd69.chunk.js",
     "static/js/2.373ccd69.chunk.js.map": "/reforge/static/js/2.373ccd69.chunk.js.map",
     "index.html": "/reforge/index.html",
-    "precache-manifest.4107bf835c020c78e35450598d19fc83.js": "/reforge/precache-manifest.4107bf835c020c78e35450598d19fc83.js",
+    "precache-manifest.0dcc963504ec71dc60bd3d11124ea5f9.js": "/reforge/precache-manifest.0dcc963504ec71dc60bd3d11124ea5f9.js",
     "service-worker.js": "/reforge/service-worker.js",
-    "static/css/main.e7de6601.chunk.css.map": "/reforge/static/css/main.e7de6601.chunk.css.map",
+    "static/css/main.950ef33b.chunk.css.map": "/reforge/static/css/main.950ef33b.chunk.css.map",
     "static/media/Assets.css": "/reforge/static/media/9d12.f732c064.svg",
     "static/media/index.css": "/reforge/static/media/bedge-grunge.9aecd722.png",
     "static/media/Navbar.css": "/reforge/static/media/black-orchid.5585543c.png",
