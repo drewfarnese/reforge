@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0fe4abe9fae173d82212a2224a9feb60",
+    "revision": "425bb67e2526a869a9530f0ce25adcbc",
     "url": "/reforge/index.html"
   },
   {
-    "revision": "93ca1812cf8d5234c345",
-    "url": "/reforge/static/css/main.40c992d3.chunk.css"
+    "revision": "8c9816d6cbeb9f742e74",
+    "url": "/reforge/static/css/main.b4c340ba.chunk.css"
   },
   {
     "revision": "e1df9e5dd97f9dc5b41a",
     "url": "/reforge/static/js/2.373ccd69.chunk.js"
   },
   {
-    "revision": "93ca1812cf8d5234c345",
-    "url": "/reforge/static/js/main.8c0c6cc2.chunk.js"
+    "revision": "8c9816d6cbeb9f742e74",
+    "url": "/reforge/static/js/main.0b541a97.chunk.js"
   },
   {
     "revision": "2908a1fd987c9692f380",
@@ -204,10 +204,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/reforge/static/media/BRLNSDB.f8fbeb74.woff"
   },
   {
-    "revision": "095eed21f04dbbf15ef19c8f53484cf5",
-    "url": "/reforge/static/media/Icon.095eed21.Component"
-  },
-  {
     "revision": "9aecd722536af2e90ed8102b881347ff",
     "url": "/reforge/static/media/bedge-grunge.9aecd722.png"
   },
@@ -216,12 +212,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/reforge/static/media/black-orchid.5585543c.png"
   },
   {
-    "revision": "3d702bf319e3c86f7d68ea358abbe461",
-    "url": "/reforge/static/media/deforge.3d702bf3.svg"
+    "revision": "55f172a60443640ff3c4e9ae965705f0",
+    "url": "/reforge/static/media/deforge.55f172a6.svg"
   },
   {
-    "revision": "5632d54c10920d853b837160d5a3d94e",
-    "url": "/reforge/static/media/reforge.5632d54c.svg"
+    "revision": "79cb7b1156385bb3a560eec186a341cd",
+    "url": "/reforge/static/media/reforge.79cb7b11.svg"
   },
   {
     "revision": "9a618feb4295ff4e04889ed9f937f29f",
